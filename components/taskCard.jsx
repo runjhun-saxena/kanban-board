@@ -32,7 +32,7 @@ export default function TaskCard({ task, columnId, onDelete }) {
       pathLength: 1, 
       opacity: 1,
       transition: { 
-        pathLength: { type: "spring", duration: 1.5, bounce: 0 },
+        pathLength: { type: "spring", duration: 1.5, bounce: false },
         opacity: { duration: 0.3 }
       }
     }
